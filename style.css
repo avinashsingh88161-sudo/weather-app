@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 body {
-   padding: 20px;
    background: linear-gradient(135deg, #1f1c2c, #928dab);
 
 }
@@ -14,9 +13,9 @@ body {
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
-  margin: 100px auto 0;
+  margin: 100px auto ;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 .search {
@@ -84,6 +83,7 @@ body {
 }
 
 
+
 @media (max-width: 500px) {
   .card {
     padding: 20px;
@@ -96,4 +96,8 @@ body {
   .weather h2 {
     font-size: 30px;
   }
+}
+
+html,body{
+  height: 100%;
 }
