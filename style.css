@@ -5,12 +5,12 @@
   box-sizing: border-box;
 }
 body {
-
+   padding: 20px;
    background: linear-gradient(135deg, #1f1c2c, #928dab);
 
 }
 .card {
-  width: 470px;
+  width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
@@ -84,3 +84,16 @@ body {
 }
 
 
+@media (max-width: 500px) {
+  .card {
+    padding: 20px;
+  }
+
+  .weather h1 {
+    font-size: 50px;
+  }
+
+  .weather h2 {
+    font-size: 30px;
+  }
+}
